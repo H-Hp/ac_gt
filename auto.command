@@ -10,3 +10,6 @@ Co-authored-by: HH <H-Hp@users.noreply.github.com>
 git push origin b2
 gh pr create --base main --head b2 --title "Fix bug" --body ""
 gh pr merge --merge --delete-branch
+
+# 処理が完了したらターミナルウィンドウを閉じる
+exit
