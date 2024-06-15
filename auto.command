@@ -1,6 +1,6 @@
 cd /Users/hayashihiroki/Desktop/Achieve_Github
 
-for i in {1..50}
+for i in {1..500}
 do
 
 git checkout -b b2
