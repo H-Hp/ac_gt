@@ -12,5 +12,5 @@ gh pr create --base main --head b2 --title "Fix bug" --body ""
 gh pr merge --merge --delete-branch
 
 # 処理が完了したらターミナルウィンドウを閉じる
-exit 0
-osascript -e 'tell application "Terminal" to close (every window whose name contains "auto.command")'
+#exit 0
+osascript -e 'tell application "Terminal" to close (every window whose name contains "auto")'
